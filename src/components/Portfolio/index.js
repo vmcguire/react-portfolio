@@ -38,6 +38,12 @@ function Portfolio({ project }) {
       github: "https://github.com/vmcguire/weatherman",
       website: "https://vmcguire.github.io/weatherman/",
     },
+    {
+      name: "Kathryn_Hansen",
+      description: "Kathryn Hansen Artist Gallery",
+      github: "https://github.com/vmcguire/kathryn-hansen",
+      website: "https://kathryn-hansen.herokuapp.com/",
+    },
   ]);
   const currentPhotos = photos.filter((photo) => photo.project === project);
 
